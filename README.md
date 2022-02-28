@@ -2,7 +2,7 @@
 natbib compatible splncs04.bst (Springer LNCS) BibTeX Style File built using a docstrip with the conventional merlin.mbs master file.
 
 This repository includes both a docstrip batch job (`splncs04nat.dbj`) and
-a BibTeX style file (`splncs04nat.bs`t) that is built directly from it.
+a BibTeX style file (`splncs04nat.bst`) that is built directly from it.
 The resulting `splncs04nat.bst` emulates the `splncs04.bst` from Springer;
 however, `splncs04nat.bst` is `natbib` compatible.
 
@@ -52,4 +52,3 @@ database. Then, within the document, `natbib` macros can be used, as in:
 
 The latter macros, ```\citet```, will not properly include the author
 names if the standard `splncs04.bst` is used.
-
